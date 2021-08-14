@@ -1,0 +1,113 @@
+body {
+  text-align: center;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #E0E8FF;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.card {
+  display: inline-block;
+  height: 75%;
+  width: 450px;
+  margin: 50px 0px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  line-height: 1.4;
+  position: relative;
+  padding-bottom: 30px;
+  box-shadow: 0 20px 20px 0 #CCD6FA;
+}
+
+.hero {
+  border-radius: 20px 20px 0px 0px;
+  margin: 0px auto;
+}
+
+.description {
+  width: 70%;
+  margin: 30px auto;
+  font-size: 16px;
+}
+
+.plan {
+  background-color: #F8F9FE;
+  width: 75%;
+  margin: 0px auto;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.music-icon {
+  float: left;
+  margin-right: 30px;
+  margin-top: 8px;
+}
+
+.change-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.change-btn:hover {
+  color: #5089C6;
+}
+
+.option {
+  margin: 20px auto;
+}
+
+.pay-btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 110px;
+  background-color: #382AE1;
+  -webkit-box-shadow: 0 20px 20px 0 #E1DEFB;
+  -moz-box-shadow: 0 20px 20px 0 #E1DEFB;
+  box-shadow: 0 20px 20px 0 #E1DEFB;
+  text-shadow: 0 0 0 #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: #1E62D0;
+  border: solid #337FED 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.cancel-btn {
+  color: #9BA4C1;
+  text-decoration: none;
+  position: absolute;
+  bottom: 30px;
+  right: 180px;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
