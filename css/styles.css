@@ -2,7 +2,7 @@ body {
   text-align: center;
   background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100vw 40vh;
   background-color: #E0E8FF;
   font-family: 'Red Hat Display', sans-serif;
 }
